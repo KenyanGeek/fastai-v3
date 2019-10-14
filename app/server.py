@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/uc?export=download&id=1-BgDnbl_nfejS2ZmU-OYOpmkWlXut0r0'
 export_file_name = 'export.pkl'
 
-classes = ['purple', 'sun', 'sunflower']
+classes = ['Pisaster ochreaus (Purple Seastar)','Pycnopodia helianthoides( Sunflower Seastar)','Solaster dawsoni(Morning Sun Seastar)']
 path = Path(__file__).parent
 
 app = Starlette()
